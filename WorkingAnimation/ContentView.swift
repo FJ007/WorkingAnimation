@@ -13,10 +13,10 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State var backgroundColorChanged = false
-    @State var iconColorChanged = false
-    @State var iconSizeChanged = false
-    @State var iconChanged = false
+    @State private var backgroundColorChanged = false
+    @State private var iconColorChanged = false
+    @State private var iconSizeChanged = false
+    @State private var iconChanged = false
     
     var body: some View {
         VStack{
