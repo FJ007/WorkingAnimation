@@ -16,6 +16,7 @@ struct ContentView: View {
     @State var backgroundColorChanged = false
     @State var iconColorChanged = false
     @State var iconSizeChanged = false
+    @State var iconChanged = false
     
     var body: some View {
         VStack{
@@ -35,10 +36,29 @@ struct ContentView: View {
                 self.iconSizeChanged.toggle()
                 self.iconColorChanged.toggle()
             }
-            .animation(.interactiveSpring(response: 0.2,
-                                          dampingFraction: 0.3,
-                                          blendDuration: 0.8))
-            //.animation(.default)
+            .animation(.default)
+            
+            Text("Explicit Animations")
+                .fontWeight(.heavy)
+                .font(.largeTitle)
+            ZStack{
+                Circle()
+                    .frame(width: 250, height: 250, alignment: .center)
+                    .foregroundColor(backgroundColorChanged ? .red : .gray)
+                Image(systemName: iconChanged ? "heart.fill" : "heart")
+                    .font(.system(size: 150))
+                    .foregroundColor(iconSizeChanged ? .white : .black)
+                    .scaleEffect(iconSizeChanged ? 1.0 : 0.5)
+            }.onTapGesture {
+                withAnimation (.spring(response: 0.3,
+                                       dampingFraction: 0.3,
+                                       blendDuration: 0.5)) {
+                    self.iconSizeChanged.toggle()
+                }
+                self.iconColorChanged.toggle()
+                self.iconChanged.toggle()
+                self.backgroundColorChanged.toggle()
+            }
         }
     }
 }
