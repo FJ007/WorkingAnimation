@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D9B0711A2461BD90000E402D /* LoadingBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B071192461BD90000E402D /* LoadingBarView.swift */; };
 		D9E7BDE024606DAC00D9AE2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E7BDDF24606DAC00D9AE2A /* AppDelegate.swift */; };
 		D9E7BDE224606DAC00D9AE2A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E7BDE124606DAC00D9AE2A /* SceneDelegate.swift */; };
 		D9E7BDE424606DAC00D9AE2A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E7BDE324606DAC00D9AE2A /* ContentView.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D9B071192461BD90000E402D /* LoadingBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingBarView.swift; sourceTree = "<group>"; };
 		D9E7BDDC24606DAC00D9AE2A /* WorkingAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkingAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9E7BDDF24606DAC00D9AE2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9E7BDE124606DAC00D9AE2A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				D9E7BDDF24606DAC00D9AE2A /* AppDelegate.swift */,
 				D9E7BDE124606DAC00D9AE2A /* SceneDelegate.swift */,
 				D9E7BE0F2460817800D9AE2A /* LoadingView.swift */,
+				D9B071192461BD90000E402D /* LoadingBarView.swift */,
 				D9E7BDE324606DAC00D9AE2A /* ContentView.swift */,
 				D9E7BDE524606DAD00D9AE2A /* Assets.xcassets */,
 				D9E7BDEA24606DAD00D9AE2A /* LaunchScreen.storyboard */,
@@ -272,6 +275,7 @@
 			files = (
 				D9E7BDE024606DAC00D9AE2A /* AppDelegate.swift in Sources */,
 				D9E7BE102460817800D9AE2A /* LoadingView.swift in Sources */,
+				D9B0711A2461BD90000E402D /* LoadingBarView.swift in Sources */,
 				D9E7BDE224606DAC00D9AE2A /* SceneDelegate.swift in Sources */,
 				D9E7BDE424606DAC00D9AE2A /* ContentView.swift in Sources */,
 			);
