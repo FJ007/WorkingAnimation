@@ -54,9 +54,9 @@ struct ContentView: View {
                                        dampingFraction: 0.3,
                                        blendDuration: 0.5)) {
                     self.iconSizeChanged.toggle()
+                    self.iconChanged.toggle()
                 }
                 self.iconColorChanged.toggle()
-                self.iconChanged.toggle()
                 self.backgroundColorChanged.toggle()
             }
         }

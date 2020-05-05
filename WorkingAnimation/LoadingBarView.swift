@@ -14,12 +14,11 @@ struct LoadingBarView: View {
     
     var body: some View {
         VStack {
-            Text("Cargando...")
+            Text("Loading...")
                 .fontWeight(.heavy)
                 .font(.system(.title, design: .rounded))
                 .foregroundColor(.gray)
-                .multilineTextAlignment(.trailing)
-                .offset(x: -70, y: 5)
+                .multilineTextAlignment(.center)
             ZStack{
                 RoundedRectangle(cornerRadius: 8, style: .circular)
                     .foregroundColor(Color(.systemGray6))
