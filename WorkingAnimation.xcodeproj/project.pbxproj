@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D9546B5D2464805D00DE196F /* TransformView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9546B5C2464805D00DE196F /* TransformView.swift */; };
 		D9B0711A2461BD90000E402D /* LoadingBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B071192461BD90000E402D /* LoadingBarView.swift */; };
 		D9B0711C2461C4E9000E402D /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B0711B2461C4E9000E402D /* ProgressView.swift */; };
 		D9B0711E2461DC77000E402D /* DotsLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B0711D2461DC77000E402D /* DotsLoadingView.swift */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D9546B5C2464805D00DE196F /* TransformView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformView.swift; sourceTree = "<group>"; };
 		D9B071192461BD90000E402D /* LoadingBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingBarView.swift; sourceTree = "<group>"; };
 		D9B0711B2461C4E9000E402D /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
 		D9B0711D2461DC77000E402D /* DotsLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotsLoadingView.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				D9E7BE0F2460817800D9AE2A /* LoadingView.swift */,
 				D9B071192461BD90000E402D /* LoadingBarView.swift */,
 				D9B0711B2461C4E9000E402D /* ProgressView.swift */,
+				D9546B5C2464805D00DE196F /* TransformView.swift */,
 				D9B0711D2461DC77000E402D /* DotsLoadingView.swift */,
 				D9E7BDE324606DAC00D9AE2A /* ContentView.swift */,
 				D9E7BDE524606DAD00D9AE2A /* Assets.xcassets */,
@@ -284,6 +287,7 @@
 				D9B0711A2461BD90000E402D /* LoadingBarView.swift in Sources */,
 				D9B0711E2461DC77000E402D /* DotsLoadingView.swift in Sources */,
 				D9E7BDE224606DAC00D9AE2A /* SceneDelegate.swift in Sources */,
+				D9546B5D2464805D00DE196F /* TransformView.swift in Sources */,
 				D9E7BDE424606DAC00D9AE2A /* ContentView.swift in Sources */,
 				D9B0711C2461C4E9000E402D /* ProgressView.swift in Sources */,
 			);
